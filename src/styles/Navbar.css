@@ -1,0 +1,11 @@
+.navbar{
+    /* background: #171717; */
+    --color-principal:#1b69dd;
+    --color-theme: #ffca2c;
+    position: fixed !important;
+    z-index: 50;
+}
+
+.navbar-toggler{
+   color: #e9e9ea15;
+}
