@@ -6,7 +6,7 @@ import MyServices from './pages/MyServices';
 import RecentProgect from './pages/RecentProject';
 import SkillSet from './pages/SkillSet';
 import Footer from './pages/Footer';
-
+import './App.css'
 function App() {
   return (
     <ColorProvider>

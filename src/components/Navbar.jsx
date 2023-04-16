@@ -55,7 +55,7 @@ function NavbarComponent() {
                     <LinkComponent style={{color:"red"}} title="Home" Icon={FaHome} href="#home"/>
                     <LinkComponent title="Services" Icon={MdMiscellaneousServices} href="#services"/> 
                     <LinkComponent title="Skill Set" Icon={GiSkills} href="#skill"/>
-                    <LinkComponent title="Projects" Icon={IconProject} href="#projects"/>
+                    <LinkComponent title="Projects" Icon={IconProject} href="#miproyects"/>
                     <LinkComponent title="Contact" Icon={IoIosContact} href="#contact"/>
                 </Nav>
                 <div className='mx-3 d-flex justify-content-start flex-column flex-md-row'>

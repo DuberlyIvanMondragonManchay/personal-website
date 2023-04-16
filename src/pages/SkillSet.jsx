@@ -14,7 +14,7 @@ import php from '../img/skillsets/php.svg'
 export default function SkillSet() {
     const {teme,colorContent} = useContext(ColorContext)
     return (
-        <div>
+        <div id="skill">
             <h1 className='text-center' style={{color:teme}}><span style={{color:colorContent}}>Skill</span>Set <GiSkills/></h1>
             <div className='mt-5 d-flex flex-wrap justify-content-center'>
                 <CardSkillSet text="HTML" img={html} starts={5}/>

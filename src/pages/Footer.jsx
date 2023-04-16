@@ -5,7 +5,7 @@ import {ColorContext} from '../context/ColorContext'
 export default function Footer() {
     const {teme,color} = useContext(ColorContext)
     return (
-        <Container style={{background:color,with:"100%"}} className='mt-5 mb-4'>
+        <Container id="contact" style={{background:color,with:"100%"}} className='mt-5 mb-4'>
             <Row style={{color:teme}} className='d-flex justify-content-between flex-column flex-md-row  text-center text-md-start'>
                 <Col>
                     <p>Desarrollador web y programador Duberly Mondragòn ©2023</p>
