@@ -13,7 +13,10 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0"
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.12.1",
+    "type-js": "^1.0.0",
+    "typed.js": "^2.0.16"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

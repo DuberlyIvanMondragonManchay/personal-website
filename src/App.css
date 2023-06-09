@@ -1,0 +1,36 @@
+/* background All*/
+#home,#services,#miproyects,#skill,#contact{
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center center;
+}
+
+/* background Home*/
+#home,#miproyects{
+    background-image: url('../src/img/fondo.svg') !important;
+} 
+/* background Mis services */ 
+#services,#skill,#contact{
+    background-image: url('../src/img/fondo2.svg') !important; 
+}
+
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+    
+.card_animation{
+    animation: moveUpDown 5s ease-in-out infinite;
+}
+
+/* TEXT SHADOW */
+.text-shadow{
+    text-shadow:0 0 10px #218838 !important;
+}

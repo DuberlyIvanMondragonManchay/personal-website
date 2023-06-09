@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Card from 'react-bootstrap/Card'
-import {AiFillStar,AiOutlineStar} from 'react-icons/ai'
+import {AiFillStar,AiOutlineStar} from 'react-icons/ai';
+// CSS
+import '../App.css';
+import { ColorContext } from '../context/ColorContext';
+
 export default function CardSkillSet(props) {
+    const {colorContent} = useContext(ColorContext)
     const starts = []
     let cantFill=0
     let cantOutoline=0
@@ -22,10 +27,11 @@ export default function CardSkillSet(props) {
         starts.push(<AiOutlineStar key={i+key}/>)
     }
     return (
-        <Card className='border-0 text-center text-white' style={{ background:"none",width: '10rem' }}>
+        // ADD ANIMATION
+        <Card className='card_animation border-0 text-center text-white mt-3' style={{ background:"none",width: '10rem' }}>
         <Card.Img className='m-auto' style={{maxWidth:80}} variant="top" src={props.img} />
         <Card.Body>
-            <Card.Title>{props.text}</Card.Title>
+            <Card.Title style={{ color:colorContent }}>{props.text}</Card.Title>
             <Card.Text style={{color:"#ffc73d"}}>
             {starts}
             </Card.Text>

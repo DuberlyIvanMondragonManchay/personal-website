@@ -1,4 +1,4 @@
-import {createContext, useState} from 'react';
+import {createContext, useEffect, useState} from 'react';
 
 //------------ COLOR CONTEXT------------
 
@@ -7,17 +7,27 @@ export const ColorContext = createContext();
 // Creamos el componente para proveer informacion
 
 export const ColorProvider = ({ children }) => {
-    // Este estado sera el color de tema del contenido 
-    const [color,setColor] = useState("black");
+    let colorDark = '#000000';
+    let colorLight = '#ffffff';
+
+    const leM = localStorage.getItem('colorMode');
+    const leC = localStorage.getItem('colorContent')
+
+    // Modo de color
+    const [mode,setMode] = useState(leM?leM : colorDark);
     // Este estado sera el color de tema del button cambiar tema
-    const [colorContent,setcolorContent] = useState("white");
-    // Este estado sera para el tema de la web
-    const [teme,setTeme] = useState("#1b69dd")
-    // ffca2c warning
-    
-    
+    const [colorContent,setcolorContent] = useState(leC ? leC :colorLight);
     return (
-        <ColorContext.Provider value={{color,setColor,colorContent,setcolorContent,teme,setTeme}}>
+        <ColorContext.Provider value={
+            {
+                colorContent,
+                setcolorContent,
+                colorDark,
+                colorLight,
+                mode,
+                setMode
+            }
+            }>
             {children}
         </ColorContext.Provider>
     )

@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {Card,Row,Col,Container} from 'react-bootstrap';
-// import portfolio from '../img/projects/portfolio.svg'
-import portfolio from '../img/projects/portfolio.svg'
+import { ColorContext } from '../context/ColorContext';
 import {BsGithub} from 'react-icons/bs'
 import {BiLinkExternal} from 'react-icons/bi'
+// CSS
+import '../styles/CardMyProject.css';
 function CardMyProjects(props) {
+  const {colorContent} = useContext(ColorContext);
   return (
-    <Card className='p-1 m-2 rounded-top' style={{background:"#171717",width: '15rem', height:"380px",color:"#ffff"}}>
+    <Card id='card_project' className='p-1 m-2 rounded-top' style={{width: '15rem', height:"380px",color:colorContent}}>
       
-      <Card.Img className='bg-white' variant="top" src={props.img} />
+      <Card.Img style={{ background:"#00000000" }} variant="top" src={props.img} />
       <Card.Body>
         <Card.Title style={{fontSize:"25px"}}>{props.title}</Card.Title>
         <Container className='overflow-auto' style={{height:"85px"}}>

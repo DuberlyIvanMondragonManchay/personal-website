@@ -1,0 +1,8 @@
+#card_project:hover {
+  box-shadow: 0 0 10px #218838;
+  cursor: pointer;
+}
+#card_project {
+  background:#427c891f !important;
+  transition: box-shadow 0.3s ease-in-out;
+}

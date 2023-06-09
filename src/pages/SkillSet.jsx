@@ -12,10 +12,10 @@ import mysql from '../img/skillsets/mysql.svg'
 import php from '../img/skillsets/php.svg'
 
 export default function SkillSet() {
-    const {teme,colorContent} = useContext(ColorContext)
+    const {colorContent} = useContext(ColorContext)
     return (
         <div id="skill">
-            <h1 className='text-center' style={{color:teme}}><span style={{color:colorContent}}>Skill</span>Set <GiSkills/></h1>
+            <h3 className='text-center text-success'><span style={{ color:colorContent }}>Tecnologias</span> Usadas <GiSkills/></h3>
             <div className='mt-5 d-flex flex-wrap justify-content-center'>
                 <CardSkillSet text="HTML" img={html} starts={5}/>
                 <CardSkillSet text="CSS" img={css} starts={5}/>
