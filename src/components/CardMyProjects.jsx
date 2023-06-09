@@ -8,7 +8,7 @@ import '../styles/CardMyProject.css';
 function CardMyProjects(props) {
   const {colorContent} = useContext(ColorContext);
   return (
-    <Card id='card_project' className='p-1 m-2 rounded-top' style={{width: '15rem', height:"380px",color:colorContent}}>
+    <Card id='card_project' className='p-1 m-2 rounded-top' style={{width: '18rem', height:"430px",color:colorContent}}>
       
       <Card.Img style={{ background:"#00000000" }} variant="top" src={props.img} />
       <Card.Body>

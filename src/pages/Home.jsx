@@ -21,9 +21,9 @@ function Home() {
           <Title color="success" text="Duberlymondragon.com"/>
         <p className='text-center text-md-start text-success'> http://github.com/duberly2004</p>
         <p className='text-center text-md-start pt-3'>
-        ¡Bienvenido a Duberlymondragon.com! El sitio web en el<br className='d-none d-md-block' />
-        que encontrarás proyectos prácticos y atractivos usando<br className='d-none d-md-block' />
-        diferentes tecnologias. diferentes tecnologías. Si has <br className='d-none d-md-block'/>
+        ¡Bienvenido a <span className='text-success'>Duberlymondragon.com</span>! El sitio web en el <br className='d-none d-md-block' />
+        que encontrarás proyectos prácticos y atractivos usando <br className='d-none d-md-block' />
+        diferentes tecnologías. Si has <br className='d-none d-md-block'/>
         visitado este sitio anteriormente y está diferente, es <br className='d-none d-md-block'/>
         porque lo estoy mejorando para ti.
         </p>

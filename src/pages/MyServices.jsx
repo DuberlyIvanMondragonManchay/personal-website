@@ -16,7 +16,7 @@ function MyServices() {
         <div id='services' >
             <Container className='mt-5 mb-5 h-100 text-center'>
             <h5 style={{color:colorContent}}>Servicios </h5>
-            <h3 className='text-success'>Servicios de Desarrollo y Descarga <MdMiscellaneousServices/></h3>
+            <h3 className='text-success'>de Desarrollo y Descarga <MdMiscellaneousServices/></h3>
             <Row  xs={1} md={3} className='g-4 pt-3'>
                 <Col>
                     <CardMyServicess 
@@ -31,7 +31,7 @@ function MyServices() {
                         img={imgOnlineTests} 
                         cardTitle1={`Pruebas en`}
                         cardTitle2={`línea`}
-                        cardText={'Pruebas en línea: Experimenta con versiones interactivas de los proyectos antes de descargarlos'}
+                        cardText={'Experimenta con versiones interactivas de los proyectos antes de descargarlos'}
                         />
                 </Col>
 
@@ -40,7 +40,7 @@ function MyServices() {
                         img={imgImprovementsAndUpdates} 
                         cardTitle1={'Actualizaciones'}
                         cardTitle2={'y mejoras'}
-                        cardText={'Actualizaciones y mejoras: Mantenemos los proyectos actualizados con nuevas características y mejoras.'}
+                        cardText={'Mantenemos los proyectos actualizados con nuevas características y mejoras.'}
                     />
                 </Col>
                     
