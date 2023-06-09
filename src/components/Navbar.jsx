@@ -41,8 +41,8 @@ function NavbarComponent() {
     <Navbar expanded={expandedd} onToggle={handleClick}  style={{width:'100%',background:mode}} expand='xl' >
         <Container>
 
-            <Navbar.Brand href='#home'><img  src={logoLight} alt="Duberly logoDark"/></Navbar.Brand>
-            <Navbar.Brand style={{color:colorContent}}>Duberly</Navbar.Brand>
+            <Navbar.Brand href='#home'><img style={{ height:'50px' }} src={logoLight} alt="Duberly logoDark"/></Navbar.Brand>
+            <Navbar.Brand style={{color:colorContent}}></Navbar.Brand>
             <Navbar.Toggle aria-controls='navbar'><img style={{width:30}} src={mode==colorDark ? MenuHamburguesaLight : MenuHamburguesaDark}/></Navbar.Toggle>
             
             <Navbar.Collapse id='navbar'>
