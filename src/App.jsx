@@ -1,22 +1,22 @@
-import React from 'react'
+import React from 'react';
+import {Routes, Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
-import { ColorProvider} from './context/ColorContext';
+import {ColorProvider} from './context/ColorContext';
+
 import Home from './pages/Home';
-import MyServices from './pages/MyServices';
-import RecentProgect from './pages/RecentProject';
-import SkillSet from './pages/SkillSet';
-import Footer from './pages/Footer';
+import Footer from './components/Footer';
+import NotFound from './pages/NotFound'
 import './App.css'
 
 function App() {
   return (
     <ColorProvider>
-    <Navbar/>
-    <Home/>
-    <MyServices/>
-    <RecentProgect/>
-    <SkillSet/>
-    <Footer/>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='*' element={<NotFound/>}/>
+      </Routes>
+      <Footer/>
     </ColorProvider>
   )
 }

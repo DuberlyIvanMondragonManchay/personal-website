@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import {ColorContext} from '../context/ColorContext'
+import {ColorContext} from '../../context/ColorContext'
 import {CiDark} from 'react-icons/ci';
 import {MdOutlineLightMode} from 'react-icons/md';
 

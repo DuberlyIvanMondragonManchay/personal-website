@@ -2,8 +2,8 @@ import React, { useContext } from 'react';
 import Card from 'react-bootstrap/Card'
 import {AiFillStar,AiOutlineStar} from 'react-icons/ai';
 // CSS
-import '../App.css';
-import { ColorContext } from '../context/ColorContext';
+import '../../App.css';
+import { ColorContext } from '../../context/ColorContext';
 
 export default function CardSkillSet(props) {
     const {colorContent} = useContext(ColorContext)

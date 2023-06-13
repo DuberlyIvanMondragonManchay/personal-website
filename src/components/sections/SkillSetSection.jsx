@@ -1,15 +1,15 @@
 import React,{useContext} from 'react'
-import {ColorContext} from '../context/ColorContext'
+import {ColorContext} from '../../context/ColorContext'
 import {GiSkills} from 'react-icons/gi';
-import CardSkillSet from '../components/CardSkillSet';
-import html from '../img/skillsets/html.svg'
-import css from '../img/skillsets/css.svg'
-import js from '../img/skillsets/js.svg'
-import python from '../img/skillsets/python.svg'
-import boostrap from '../img/skillsets/bootstrap.svg'
-import react from '../img/skillsets/react.svg'
-import mysql from '../img/skillsets/mysql.svg'
-import php from '../img/skillsets/php.svg'
+import CardSkillSet from '../cards/CardSkillSet';
+import html from '../../img/skillsets/html.svg'
+import css from '../../img/skillsets/css.svg'
+import js from '../../img/skillsets/js.svg'
+import python from '../../img/skillsets/python.svg'
+import boostrap from '../../img/skillsets/bootstrap.svg'
+import react from '../../img/skillsets/react.svg'
+import mysql from '../../img/skillsets/mysql.svg'
+import php from '../../img/skillsets/php.svg'
 
 export default function SkillSet() {
     const {colorContent} = useContext(ColorContext)

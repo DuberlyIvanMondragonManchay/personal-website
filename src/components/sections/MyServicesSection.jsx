@@ -1,16 +1,16 @@
 import React,{useContext} from 'react'
-import {ColorContext} from '../context/ColorContext'
+import {ColorContext} from '../../context/ColorContext'
 // REACT BOOSTRAP
-import '../App.css';
+import '../../App.css';
 import {Row,Col,Container} from 'react-bootstrap';
-import CardMyServicess from '../components/CardMyServices';
+import CardMyServicess from '../cards/CardMyServices';
 // ILUSTRATIONS 
-import imgDownloadOfProjects from '../img/download-of-projects.svg';
-import imgOnlineTests from '../img/online-tests.svg';
-import imgImprovementsAndUpdates from '../img/improvements-and-updates.svg';
+import imgDownloadOfProjects from '../../img/download-of-projects.svg';
+import imgOnlineTests from '../../img/online-tests.svg';
+import imgImprovementsAndUpdates from '../../img/improvements-and-updates.svg';
 
 import {MdMiscellaneousServices} from 'react-icons/md';
-function MyServices() {
+function MyServicesSection() {
     const {teme,colorContent} = useContext(ColorContext)
     return (
         <div id='services' >
@@ -51,4 +51,4 @@ function MyServices() {
     )
 }
 
-export default MyServices
+export default MyServicesSection

@@ -1,14 +1,14 @@
 import React,{useContext} from 'react';
 import { Container } from 'react-bootstrap';
-import {ColorContext} from '../context/ColorContext'
+import {ColorContext} from '../../context/ColorContext'
 import {AiOutlineFundProjectionScreen as IconProject}  from 'react-icons/ai';
-import CardMyProjects from '../components/CardMyProjects';
-import crudPhpMysql from '../img/projects/crud-php-mysql.svg';
-import portfolio from '../img/projects/portfolio.svg';
-import eduReg from '../img/projects/edureg.svg';
-import '../App.css';
+import CardMyProjects from '../cards/CardMyProjects';
+import crudPhpMysql from '../../img/projects/crud-php-mysql.svg';
+import portfolio from '../../img/projects/portfolio.svg';
+import eduReg from '../../img/projects/edureg.svg';
+import '../../App.css';
 
-function RecentProgect() {
+function RecentProjectSection() {
     const {colorContent} = useContext(ColorContext)
     return (
         <div id='miproyects'>
@@ -46,4 +46,4 @@ function RecentProgect() {
     )
 }
 
-export default RecentProgect
+export default RecentProjectSection
