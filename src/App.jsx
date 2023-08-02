@@ -13,7 +13,7 @@ function App() {
     <ColorProvider>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/personal-website' element={<Home/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
