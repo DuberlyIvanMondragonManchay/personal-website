@@ -29,7 +29,7 @@ export default function CardSkillSet(props) {
     return (
         // ADD ANIMATION
         <Card className='card_animation border-0 text-center text-white mt-3' style={{ background:"none",width: '10rem' }}>
-        <Card.Img className='m-auto' style={{maxWidth:80}} variant="top" src={props.img} />
+        <Card.Img className='m-auto' style={{maxWidth:80 , height:'90px'}} variant="top" src={props.img} />
         <Card.Body>
             <Card.Title style={{ color:colorContent }}>{props.text}</Card.Title>
             <Card.Text style={{color:"#ffc73d"}}>

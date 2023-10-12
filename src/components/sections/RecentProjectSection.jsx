@@ -28,7 +28,7 @@ function RecentProjectSection() {
                         title="CRUD PHP" 
                         text="CRUD ( Created, Read, Update, Delete ) de empleados Creado con PHP , Mysql y Boostrap. base de datos en la nube"
                         img={crudPhpMysql}
-                        linkExternal="http://crud-php-mysql.lovestoblog.com/"
+                        // linkExternal=""
                         linkGihub="https://github.com/Duberly2004/crud-php-mysql"
                         />
 
@@ -36,7 +36,7 @@ function RecentProjectSection() {
                         title="EduReg" 
                         text="En este sitio podrás registrar y administrar información sobre nuestros estudiantes, cursos y matrículas. Podrás agregar, modificar o eliminar datos, y asegurarte de que toda la información esté actualizada y disponible para nuestros usuarios."
                         img={eduReg}
-                        linkExternal="http://plataforma-educativa.epizy.com/"
+                        // linkExternal="http://plataforma-educativa.epizy.com/"
                         linkGihub="https://github.com/Duberly2004/plataforma-educativa"
                         />
                     
