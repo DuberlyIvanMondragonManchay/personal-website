@@ -6,6 +6,7 @@ import CardMyProjects from '../cards/CardMyProjects';
 import dimm from '../../img/projects/dimm.svg';
 import portfolio from '../../img/projects/portfolio.svg';
 import emmit from '../../img/projects/emmit.svg';
+import calculadora_anime from '../../img/projects/calculadora_anime.svg';
 import '../../App.css';
 
 function RecentProjectSection() {
@@ -39,6 +40,13 @@ function RecentProjectSection() {
                         linkExternal="https://adrian-coronel.github.io/spaceapp-emit"
                         // linkGihub="https://github.com/Duberly2004/plataforma-educativa"
                         /> 
+                    <CardMyProjects 
+                        title="Calculadora anime" 
+                        text="Calculadora anime que nos permite realizar operaciones matemáticas básicas relacionadas con el mundo del anime. Ideal para fans que desean calcular de manera rápida y sencilla en un ambiente temático."
+                        img={calculadora_anime}
+                        linkExternal="https://calculadoraanimedimm.000webhostapp.com/"
+                        // linkGithub="#" 
+                    />
                     
                 </div> 
              </Container>
