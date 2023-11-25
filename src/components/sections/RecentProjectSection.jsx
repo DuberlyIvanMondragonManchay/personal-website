@@ -7,6 +7,7 @@ import dimm from '../../img/projects/dimm.svg';
 import portfolio from '../../img/projects/portfolio.svg';
 import emmit from '../../img/projects/emmit.svg';
 import calculadora_anime from '../../img/projects/calculadora_anime.svg';
+import mkadir from '../../img/projects/mkadir.svg';
 import '../../App.css';
 
 function RecentProjectSection() {
@@ -47,7 +48,13 @@ function RecentProjectSection() {
                         linkExternal="https://calculadoraanimedimm.000webhostapp.com/"
                         // linkGithub="#" 
                     />
-                    
+                    <CardMyProjects 
+                        title="Mkadir" 
+                            text="MKadir es un innovador sistema de menús en línea que permite visualizar los menús actualizados de diversos restaurantes. Cualquier persona puede registrarse en la plataforma y, una vez dentro, tener la posibilidad de registrar su propio restaurante para cargar y compartir su menú antes de la visita. Además, MKadir ofrece un sistema de registro de empleados con roles diferenciados, facilitando así la gestión de personal para los propietarios de restaurantes."
+                        img={mkadir}
+                        linkExternal="https://mkadir.netlify.app/"
+                        // linkGithub="#" 
+                    />
                 </div> 
              </Container>
         </div>
