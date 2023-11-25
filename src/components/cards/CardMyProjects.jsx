@@ -29,7 +29,7 @@ function CardMyProjects(props) {
           </Col>
           
           <Col className='col-7 d-flex justify-content-end'>
-            <a style={{backgroundColor:"#363535",fontSize:"13px"}} className='rounded text-white p-1 px-2 w-20 text-decoration-none'>4/14/2023</a>
+            <a style={{backgroundColor:"#363535",fontSize:"13px"}} className='rounded text-white p-1 px-2 w-20 text-decoration-none'>{props.date}</a>
           </Col>
 
         </Row>
