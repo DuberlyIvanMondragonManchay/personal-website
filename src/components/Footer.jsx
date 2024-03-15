@@ -13,7 +13,7 @@ export default function Footer() {
                 </Col>
                 <Col className='d-flex justify-content-center justify-content-md-end'>
                     <p className='mx-3'>Echa un vistazo a mi</p>
-                    <a href="https://www.linkedin.com/in/duberly-ivan-mondragon-manchay-a44999255/" target={'_blank'}><img style={{maxWidth:35}} src={linkedin} alt="img linkedin" /></a>
+                    <a href="https://www.linkedin.com/in/duberly-ivan-mondragón-manchay/" target={'_blank'}><img style={{maxWidth:35}} src={linkedin} alt="img linkedin" /></a>
                 </Col>
             </Row>
         </Container>

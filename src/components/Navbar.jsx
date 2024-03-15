@@ -2,8 +2,6 @@ import React,{useState,useContext} from 'react';
 import {ColorContext} from '../context/ColorContext'
 import {Container,Navbar,Nav} from 'react-bootstrap';
 import logoLight from '../img/logo-light.svg';
-
-import { Link } from 'react-router-dom';
 import MenuHamburguesaLight from '../img/menu-hamburguesa-light.svg';
 import MenuHamburguesaDark from '../img/menu-hamburguesa-dark.svg';
 import '../styles/Navbar.css';
