@@ -3,7 +3,7 @@ import { defineConfig } from "file:///C:/Users/Duberly/Desktop/personal-website/
 import react from "file:///C:/Users/Duberly/Desktop/personal-website/node_modules/@vitejs/plugin-react/dist/index.mjs";
 var vite_config_default = defineConfig({
   plugins: [react()],
-  base: "https://duberlymondragon.com/"
+  base: "https://duberlyivanmondragonmanchay.github.io/personal-website/"
 });
 export {
   vite_config_default as default
