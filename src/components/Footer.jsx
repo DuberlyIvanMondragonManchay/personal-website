@@ -9,7 +9,7 @@ export default function Footer() {
         <Container id="contact" style={{background:mode,with:"100%"}} className='mt-5 mb-4 text-shadow'>
             <Row className='text-success d-flex justify-content-between flex-column flex-md-row  text-center text-md-start'>
                 <Col>
-                    <p>Duberly Mondragón | Proyectos atractivos ©2023</p>
+                    <p>Duberly Mondragón | Proyectos atractivos ©2024</p>
                 </Col>
                 <Col className='d-flex justify-content-center justify-content-md-end'>
                     <p className='mx-3'>Echa un vistazo a mi</p>
