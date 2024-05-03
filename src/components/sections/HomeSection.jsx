@@ -15,7 +15,7 @@ function HomeSection() {
         {/* text-duberly-ivan : clase personalizada */}
           {/* <h1 style={{color:teme}} className='text-center text-md-start'><span className='maquinaescribir'>Duberlymondragon.com  . <span style={{background:color,borderLeftColor:teme}} className='after-du'></span></span></h1> */}
           <Title color="success" text="Duberlymondragon.com"/>
-        <p className='text-center text-md-start text-success'> http://github.com/duberly2004</p>
+        <a href='https://github.com/duberly2004' target='_blank' className='text-center text-md-start text-success'>https://github.com/duberly2004</a>
         <p className='text-center text-md-start pt-3'>
         ¡Bienvenido a <span className='text-success'>Duberlymondragon.com</span>! El sitio web en el <br className='d-none d-md-block' />
         que encontrarás proyectos prácticos y atractivos usando <br className='d-none d-md-block' />

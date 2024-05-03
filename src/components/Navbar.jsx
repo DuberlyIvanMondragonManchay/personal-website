@@ -1,7 +1,8 @@
 import React,{useState,useContext} from 'react';
 import {ColorContext} from '../context/ColorContext'
 import {Container,Navbar,Nav} from 'react-bootstrap';
-import logoLight from '../img/logo-light.svg';
+import logoWhite from '../img/logo-white.svg';
+import logoDark from '../img/logo-dark.svg';
 import MenuHamburguesaLight from '../img/menu-hamburguesa-light.svg';
 import MenuHamburguesaDark from '../img/menu-hamburguesa-dark.svg';
 import '../styles/Navbar.css';
@@ -41,7 +42,7 @@ function NavbarComponent() {
     <Navbar expanded={expandedd} onToggle={handleClick}  style={{width:'100%',background:mode}} expand='xl' >
         <Container>
 
-            <Navbar.Brand href='/'><img style={{ height:'50px' }} src={logoLight} alt="Duberly logoDark"/></Navbar.Brand>
+            <Navbar.Brand className='mt-3' href='/'><img style={{ height:'50px' }} src={mode==colorDark? logoWhite:logoDark} alt="Duberly logoDark"/></Navbar.Brand>
             <Navbar.Brand style={{color:colorContent}}></Navbar.Brand>
             <Navbar.Toggle aria-controls='navbar'><img style={{width:30}} src={mode==colorDark ? MenuHamburguesaLight : MenuHamburguesaDark}/></Navbar.Toggle>
             
