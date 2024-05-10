@@ -9,6 +9,7 @@ import emmit from '../../img/projects/emmit.svg';
 import calculadora_anime from '../../img/projects/calculadora_anime.svg';
 import mkadir from '../../img/projects/mkadir.svg';
 import crm from '../../img/projects/crm.svg';
+import inventory from '../../img/projects/inventory.svg';
 import '../../App.css';
 
 function RecentProjectSection() {
@@ -20,12 +21,20 @@ function RecentProjectSection() {
                 <p style={{color:colorContent}} className='p-4'>Explora nuestros proyectos recientes, fusionando tecnologías para soluciones innovadoras. Simplifica tareas, mejora la productividad <br className='d-none d-md-flex'/> y brinda experiencias excepcionales. Encuentra la solución perfecta para tus necesidades tecnológicas.</p>
                 
                 <div className='d-flex flex-wrap justify-content-center'>
+                <CardMyProjects 
+                        title="Inventory Games" 
+                        text="Inventario dedicado al área de videojuegos, desarrollado utilizando React con TypeScript para el frontend, y TypeScript junto con MongoDB para la base de datos en el backend. Este sistema permite gestionar el inventario, las categorías, los productos y las ventas de manera eficiente."
+                        img={inventory}
+                        linkExternal="https://inventory-frontend-ktsx.onrender.com"
+                        date="09/05/2024"
+                        // linkGithub="#" 
+                    />
                     <CardMyProjects 
                         title="CRM" 
                         text="CRM para la empresa Consigue ventas Online , usando las tecnologías de React con TypeScript en el frontend y en el backend Python con Django. Podemos gestionar el inventario, los usuarios, los clientes y las ventas."
                         img={crm}
                         //linkExternal="#"
-                        date="08/14/2024"
+                        date="08/14/2023"
                         // linkGithub="#" 
                     />
                     <CardMyProjects 
