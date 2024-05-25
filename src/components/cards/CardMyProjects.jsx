@@ -25,7 +25,7 @@ function CardMyProjects(props) {
         <Row>
           <Col className='col-5 d-flex justify-content-between'>
             <BsGithub size={25}/>
-            <a href={props.linkGihub} target='_blank'  style={{backgroundColor:"#2f2c7a",cursor:'pointer',fontSize:"13px"}} className='rounded text-white p-1 text-decoration-none'>Github</a>
+            <a href={props.linkGithub} target='_blank'  style={{backgroundColor:"#2f2c7a",cursor:'pointer',fontSize:"13px"}} className='rounded text-white p-1 text-decoration-none'>Github</a>
           </Col>
           
           <Col className='col-7 d-flex justify-content-end'>

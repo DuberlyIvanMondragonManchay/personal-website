@@ -42,7 +42,7 @@ function NavbarComponent() {
     <Navbar expanded={expandedd} onToggle={handleClick}  style={{width:'100%',background:mode}} expand='xl' >
         <Container>
 
-            <Navbar.Brand className='mt-3' href='/'><img style={{ height:'50px' }} src={mode==colorDark? logoWhite:logoDark} alt="Duberly logoDark"/></Navbar.Brand>
+            <Navbar.Brand className='mt-3' href='/'><img style={{ height:'80px' }} src={mode==colorDark? logoWhite:logoDark} alt="Duberly logoDark"/></Navbar.Brand>
             <Navbar.Brand style={{color:colorContent}}></Navbar.Brand>
             <Navbar.Toggle aria-controls='navbar'><img style={{width:30}} src={mode==colorDark ? MenuHamburguesaLight : MenuHamburguesaDark}/></Navbar.Toggle>
             
