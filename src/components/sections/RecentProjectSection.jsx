@@ -76,7 +76,7 @@ function RecentProjectSection() {
         <div id='miproyects'>
             <Container className='text-center mb-5'>
                 <h3 className='text-success'><span style={{color:colorContent}} >Proyectos</span> Recientes <IconProject/></h3>
-                <p style={{color:colorContent}} className='p-4'>Explora nuestros proyectos recientes, fusionando tecnologías para soluciones innovadoras. Simplifica tareas, mejora la productividad <br className='d-none d-md-flex'/> y brinda experiencias excepcionales. Encuentra la solución perfecta para tus necesidades tecnológicas.</p>
+                <p style={{color:colorContent}} className='p-4'>Explora mis proyectos recientes, fusionando tecnologías para soluciones innovadoras.</p>
                 
                 <div className='d-flex flex-wrap justify-content-center'>
                     {projects.map((project,index)=>(

@@ -18,7 +18,7 @@ export default function SkillSet() {
     const {colorContent} = useContext(ColorContext)
     return (
         <div id="skill">
-            <h3 className='text-center text-success'><span style={{ color:colorContent }}>Tecnologias</span> Usadas <GiSkills/></h3>
+            <h3 className='text-center text-success'><span style={{ color:colorContent }}>Skill </span> Set <GiSkills/></h3>
             <div className='mt-5 d-flex flex-wrap justify-content-center'>
                 <CardSkillSet text="Docker" img={docker} starts={5}/>
                 <CardSkillSet text="TypeScript" img={ts} starts={5}/>
