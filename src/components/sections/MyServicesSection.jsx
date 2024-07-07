@@ -17,7 +17,7 @@ function MyServicesSection() {
         <div id='services' >
             <Container className='mt-5 mb-5 h-100 text-center'>
             <h5 style={{color:colorContent}}>Servicios </h5>
-            <h3 className='text-success'>de Desarrollo y Descarga <MdMiscellaneousServices/></h3>
+            <h3 className='text-success'>Backend<MdMiscellaneousServices/></h3>
             <Row  xs={1} md={4} className='g-4 pt-3'>
                 <Col>
                     <CardMyServicess 
